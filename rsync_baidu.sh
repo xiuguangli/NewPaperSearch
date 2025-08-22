@@ -1,0 +1,1 @@
+rsync -vuP --recursive --exclude-from=.rsyncignore ./ baidu:/root/work/App/PaperSearch/ --delete

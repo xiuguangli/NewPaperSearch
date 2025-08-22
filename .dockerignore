@@ -1,0 +1,41 @@
+# 忽略版本控制相关文件
+.git
+.gitignore
+
+# 忽略 VSCode、Cursor 编辑器相关文件
+.vscode
+.cursor
+.superdesign
+
+# 忽略日志文件
+backend/logs
+*.log
+
+# 忽略 node_modules（如有前端依赖）
+node_modules
+
+# 忽略环境配置文件
+.env
+.env.*
+
+# 忽略测试、临时文件
+__pycache__/
+*.pyc
+*.pyo
+*.swp
+*.tmp
+
+# 保留 Dockerfile 构建所需文件
+!nginx.conf
+!package.json
+!package-lock.json
+!src/
+!public/
+!backend/requirements.txt
+!backend/app.py
+!get_data/database/requirements.txt
+!get_data/database/add_to_mongodb.py
+
+# 忽略数据目录（如不需打包数据）
+data/
+get_data/
